@@ -31,6 +31,13 @@ dependencies:
   flutter:
     sdk: flutter
 
+  sqflite:
+  path_provider:
+  path:
+
+  # sqflite : SQLite를 Android와 iOS에 동시에 지원해주는 패키지
+  # path_provider : Android 와 iOS에서 필요한 경로를 알려주는 패키지, db파일을 저장할 위치를 알려줌
+  # path : 경로를 합칠 때 사용함
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
