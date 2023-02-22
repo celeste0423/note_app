@@ -13,7 +13,7 @@ class DBHelper {
       join(await getDatabasesPath(), 'memos.db'),
       onCreate: (db, version) {
         return db.execute(
-          "CREATE TABLE memos(id INTEGER PRIMARY KEY, title TEXT, text TEXT, createTime TEXT, editTime TEXT"
+          "CREATE TABLE memos(id TEXT PRIMARY KEY, title TEXT, text TEXT, createTime TEXT, editTime TEXT"
         );
       },
       version: 1,

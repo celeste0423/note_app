@@ -1,12 +1,16 @@
 class Memo {
-  final int id;
+  final String id;
   final String title;
   final String text;
   final String createTime;
   final String editTime;
 
-  Memo({required this.id, required this.title, required this.text,
-    required this.createTime, required this.editTime});
+  Memo({
+    required this.id,
+    required this.title,
+    required this.text,
+    required this.createTime,
+    required this.editTime});
 
   Map<String, dynamic> toMap() {
     return {
